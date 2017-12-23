@@ -1,21 +1,5 @@
 # MultiConsumer
+This is an example of KafkaEx can spin up multiple separate consumer processes.
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `multi_consumer` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:multi_consumer, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/multi_consumer](https://hexdocs.pm/multi_consumer).
-
+## Setup
+Have Kafka running with topics called `test` and `test2`. Run `mix run --no-halt`.
